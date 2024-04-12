@@ -1,0 +1,57 @@
+            .header{
+                font-family: roboto;
+                display: flex;
+                flex-direction: row;
+                flex: 1;
+
+            }
+
+            .header-logo{
+                margin-left: 50px;
+                width: 350px;
+            }
+
+            .header-info{
+                flex: 1fr;
+            }
+
+            .button-home{
+                font-family: roboto;
+                margin-left: 200px;
+                border: none;
+                background-color:rgb(88, 87, 87);
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+                font-size: 19px;
+                transition: border-bottom 1s, padding 1s;
+
+            }
+
+            .button-project{
+                font-family: roboto;
+                margin-left: 150px;
+                width: 100px;
+                border: none;
+                background-color:rgb(88, 87, 87);
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+                font-size: 19px;
+            }
+
+            .button-contact{
+                font-family: roboto;
+                margin-left: 150px;
+                border: none;
+                background-color:rgb(88, 87, 87);
+                color: rgb(255, 255, 255);
+                font-weight: 500;
+                font-size: 19px;
+                padding-top: 30px;
+            }
+
+            .button-home:hover{
+                padding: 50px;
+                border-bottom: 5px solid;
+            }
+
+ 
